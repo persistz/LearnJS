@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen">
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul id="gallery">
+        <li>
+            <a href="images/demo1.jpg" title="demo1 display" onclick="showPic(this); return false;">Demo 1</a>
+        </li>
+        <li>
+            <a href="images/demo2.jpg" title="demo2 display">Demo 2</a>
+        </li>
+        <li>
+            <a href="images/demo3.jpg" title="demo3 display">Demo 3</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="images/placeholder.gif" alt="My image gallery">
+    <p id="description">Please select a picture.</p>
+
+    <script src="scripts/displayPic.js"></script>
+
+</body>
+</html>
